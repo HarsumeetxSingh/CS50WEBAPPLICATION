@@ -1,0 +1,102 @@
+body {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url(https://images.unsplash.com/photo-1622547748225-3fc4abd2cca0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80);
+  color: azure;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-size: cover;
+}
+
+#scroll {
+  overflow: scroll;
+  height: 400px;
+}
+
+#scroll::-webkit-scrollbar {
+  display: none;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: #ddd;
+    color: azure;
+    padding-top: 25px;
+    margin-bottom: 50px;
+}
+
+.music-player {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 5px;
+  cursor: pointer;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  text-align: center;
+}
+
+li:hover {
+  background-color: #f0f0f0;
+  color: darkgrey;
+}
+
+audio {
+  width: 600px;
+  height: 100px;
+  margin-bottom: 50px;
+  position: relative;
+  left: 100px;
+}
+
+.controls {
+  position: relative;
+  left: 100px;
+}
+
+#b1 {
+  margin-right: 100px;
+  width: 100px;
+  border-radius: 10px;
+  color: azure;
+  background-color: transparent;
+  border-color: aliceblue;
+}
+
+#b2 {
+  width: 200px;
+  border-radius: 10px;
+  color: azure;
+  background-color: transparent;
+  border-color: aliceblue;
+}
+
+#b3 {
+  margin-left: 100px;
+  width: 100px;
+  border-radius: 10px;
+  color: azure;
+  background-color: transparent;
+  border-color: aliceblue;
+}
+
+button:hover {
+  color: darkgrey;
+  background-color: aliceblue;
+}
+
+#nowPlaying {
+  text-align: center;
+  margin-bottom: 50px;
+}

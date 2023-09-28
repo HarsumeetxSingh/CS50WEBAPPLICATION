@@ -1,0 +1,69 @@
+body {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url(https://images.unsplash.com/photo-1622547748225-3fc4abd2cca0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80);
+  color: azure;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-size: cover;
+}
+
+.calculator {
+  width: 50%;
+  height: 600px;
+  background-color: transparent;
+  border-radius: 80px;
+  padding: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: auto;
+  position: relative;
+  bottom: 10px;
+}
+
+.calculator input {
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 80px;
+  width: 100%;
+  padding: 10px 20px;
+  justify-content: center;
+  font-size: 24px;
+  border-radius: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: relative;
+  bottom: 125px;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: #ddd;
+    color: azure;
+    padding-top: 25px;
+}
+
+.calculator .buttons button {
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  margin: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: relative;
+  left: 10px;
+  bottom: 70px;
+  border-radius: 10px;
+  background-color: azure;
+}
+
+.calculator .buttons {
+  position: relative;
+  left: 30px;
+}
+
+.calculator .buttons button:active {
+  background-color: transparent;
+}

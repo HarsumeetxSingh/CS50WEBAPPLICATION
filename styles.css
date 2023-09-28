@@ -1,0 +1,226 @@
+/*Tags*/
+a {
+    block-size: auto;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1622547748225-3fc4abd2cca0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+
+hr {
+    border-top: dotted 10px;
+    color: black;
+    width: 50px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h4 {
+    color: azure;
+    text-align: center;
+}
+
+/*Classes*/
+
+/*Button*/
+
+.button img {
+    display: block;
+    margin: 0 auto;
+}
+
+.button {
+    display: block;
+    outline: 5px;
+    cursor: pointer;
+    width: 512px;
+    height: 512px;
+    margin: 50px 275px;
+    background-color: transparent;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    right: 360px;
+    scale: 0.7;
+}
+
+.button1 {
+    padding: 10px 100px 10px 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: azure;
+    text-decoration: none;
+    font-size: large;
+
+}
+
+.button2 {
+    padding: 10px 100px 10px 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: azure;
+    text-decoration: none;
+    font-size: large;
+}
+
+.button3 {
+    padding: 10px 100px 10px 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: azure;
+    text-decoration: none;
+    font-size: large;
+}
+
+.button4 {
+    padding: 10px 100px 10px 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: azure;
+    text-decoration: none;
+    font-size: large;
+}
+
+.handle {
+    position: relative;
+    bottom: 45px;
+}
+
+.paragraphs {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    font-size: 1.75em;
+    position: relative;
+    bottom: 490px;
+    margin-left: 500px;
+    text-align: justify;
+    color: azure;
+}
+
+.copyright {
+    text-align: center;
+    color: lavender;
+    padding: 20px 0 10px 0;
+    display: block;
+    margin-top: 100px;
+}
+
+.d0 {
+    text-align: center;
+    color: azure;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2600px;
+}
+
+.d1 {
+    display: inline-block;
+    width: 1080px;
+    margin-top: -50px;
+    height: 600px;
+}
+
+.d2 {
+    display: inline-block;
+    width: 1080px;
+    margin-top: -450px;
+    height: 600px;
+}
+
+.d3 {
+    display: inline-block;
+    width: 1080px;
+    margin-top: -450px;
+    height: 600px;
+}
+
+.d4 {
+    display: inline-block;
+    width: 1080px;
+    margin-top: -375px;
+    height: 600px;
+}
+
+
+/* Define styles for the responsive button */
+.calendar {
+    background-color: transparent;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    border-radius: 30px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 768px) {
+    .calender {
+        font-size: 16px;
+        padding: 50px 50px;
+    }
+}
+
+/* Define styles for the responsive button */
+.calculator {
+    background-color: transparent;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    border-radius: 30px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 768px) {
+    .calculator {
+        font-size: 16px;
+        padding: 50px 50px;
+    }
+}
+
+/* Define styles for the responsive button */
+.todo {
+    background-color: transparent;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    border-radius: 30px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 768px) {
+    .todo {
+        font-size: 16px;
+        padding: 50px 50px;
+    }
+}
+
+/* Define styles for the responsive button */
+.music {
+    background-color: transparent;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    border-radius: 110px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 768px) {
+    .music {
+        font-size: 16px;
+        padding: 50px 50px;
+    }
+}
+
+/*IDs*/

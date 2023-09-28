@@ -1,0 +1,110 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1622547748225-3fc4abd2cca0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80);
+    background-size: cover;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: #ddd;
+    color: azure;
+    padding-top: 25px;
+
+}
+
+.calendar {
+    width: auto;
+    padding: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.month {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: justify;
+    color: azure;
+    text-transform: uppercase;
+    font-size: x-large;
+}
+
+#prevMonth, #nextMonth {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+td:hover {
+    background-color: #f2f2f2;
+}
+
+.reminder-form {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    color: azure;
+}
+
+#reminderDate, #reminderText, #addReminder {
+    margin-right: 10px;
+    width: 300px;
+    margin: 0 50px 0 50px;
+    background-color: transparent;
+    color: azure;
+    font-weight: 400;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+}
+
+::placeholder {
+    color: azure;
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    color: azure;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+.reminder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid azure;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+.delete-reminder {
+    color: #a94442;
+    cursor: pointer;
+}
+
+::-webkit-calendar-picker-indicator { background-color: transparent;}
+::-webkit-calendar-picker-indicator:hover { opacity: 0.2;}
