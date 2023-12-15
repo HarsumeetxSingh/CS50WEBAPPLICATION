@@ -38,6 +38,8 @@ Provide instructions on how to install and run the website locally, if applicabl
 
 ## Usage
 
+VIDEO URL: https://www.youtube.com/watch?v=oeh9sO4W_Rg
+
 A windows based web application have 4 applications at the moment:
 
 1. Calendar: 
